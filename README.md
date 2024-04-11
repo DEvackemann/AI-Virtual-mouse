@@ -1,26 +1,18 @@
-# Virual-Mouse
+# AI-Virual-Mouse
 
-A virtual mouse is software that allows users to give mouse inputs to a
-system without using an actual mouse. To the extreme it can also be called
-as hardware because it uses an ordinary web camera. A virtual mouse can
-usually be operated with multiple input devices, which may include an
-actual mouse or a computer keyboard. Virtual mouse which uses web
-camera works with the help of different image processing techniques.
+AI-virtual mouse: a software marvel utilizing web cameras for mouse input, bypassing physical peripherals. Powered by Python libraries like OpenCV and PyAutoGUI, it offers seamless control through hand detection, numerical processing, and mouse emulation. With its advanced capabilities, it transforms user interaction, promising a future of intuitive computing.
 
+### Detecting which Fingure is Up and Performing the particular Mouse Function
+![img](https://github.com/DEvackemann/AI-Virtual-mouse/assets/150266045/e0619a4a-1334-42b7-8b78-701fe200f143)
 
- _Youtube Channel Link: [link](https://www.youtube.com/channel/UCC2aiBrcvFHpb4Rve-eQFBg)_<br>
- _Video Link: [link](https://www.youtube.com/watch?v=ufm6tfgo-OA&ab_channel=Proton)_
+## How to setup and run
 
-
-# How to setup and run
-
-  ### Pre-requisites
-  
+  install
   Python: (3.6 - 3.8.5)<br>
-  Anaconda Distribution: To download click [here](https://www.anaconda.com/products/individual).
+  Anaconda Distribution: To download click [here](https://www.anaconda.com/anaconda-navigator).
   
-  Download and Extract the Project Folder Name Virtual-Mouse.<br>
-  And then Open the Virtual-Mouse Folder in VsCode as shown in Video.
+  Download and Extract the Project Folder Name AI-Virtual-Mouse.<br>
+  And then Open the AI-Virtual-Mouse Folder in VsCode 
   
   Step 1: 
   ```bash
@@ -38,8 +30,28 @@ camera works with the help of different image processing techniques.
   ```
   
   Step 4:
-  cd to src by cd src
+   cd src
   ```bash 
   python Virtual_Mouse.py
   ```
+note :
+1.Open Anaconda Navigator.
+2.Launch Visual Studio Code (VSCode) from the Anaconda Navigator interface.
+3.Prior to executing any code, ensure you are in the correct directory example (C:\Users\dubey\AI-Virtual-mouse\src> python virtual_mouse.py) by verifying your current directory location.
+### Output:
+1. No action performed : When all the five figures up then the cursor will stop moving.
+![1st](https://github.com/DEvackemann/AI-Virtual-mouse/assets/150266045/749c94f6-581d-4b5e-b425-4d41f679160f)
 
+2. Cursor Moving: When both index and multiple fingers up.
+![2nd](https://github.com/DEvackemann/AI-Virtual-mouse/assets/150266045/204c2052-fca3-4d83-b9f4-fbca18093208)
+
+3.Left Button Click: Lower the index finger and raise the middle finger
+![3rd](https://github.com/DEvackemann/AI-Virtual-mouse/assets/150266045/e280606c-4a01-46cb-aa3e-d93c01a252d9)
+
+4.Right Button Click: Lower the middle finger and raise the index finger.
+![4th](https://github.com/DEvackemann/AI-Virtual-mouse/assets/150266045/b1050583-2f1f-46a9-bd75-d7f93aa69022)
+
+5.Brightness Controll: Make pinch of index finger and thumb and raise all the rest of fingers and move hand horizontally.
+![5th](https://github.com/DEvackemann/AI-Virtual-mouse/assets/150266045/81f9a843-0dfa-48f2-ae8a-8c7e470bd7fc)
+
+#### Made with ❤️ by Anshika Dubey
